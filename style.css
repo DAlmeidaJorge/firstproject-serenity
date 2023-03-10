@@ -1,0 +1,465 @@
+body {
+    background-color: #1F5C5C;
+  }
+
+  h1{
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 80px;
+    color: #B4D9D1;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 3px solid silver;
+   
+  }
+  
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+  }
+
+  .yoga-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .quote{
+    width: 40%;
+  }
+
+  .meditation-image{
+    width: 30%;
+    height: 30%;
+  }
+  
+  
+  h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    align-items:center;
+    text-align: center;
+    justify-content:center;
+    color:#B4D9D1;
+    font-size: 50px;
+    line-height: 1.2;
+  }
+
+
+  .welcome ul {
+    background-color: #1F5C5C;
+    color: #B4D9D1;
+    font-size: 50px;
+    line-height: 2.5;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+   
+
+
+  }
+  
+  .welcome {
+    display: flex;
+    justify-content: flex-end;
+    align-items: left;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    line-height: 3.5;
+   
+   
+
+  }
+
+  .welcome h2 {
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    color: #B4D9D1;
+    text-align: right;
+    margin-right: 30px;
+    
+
+  }
+
+  .welcome li {
+    padding: 5px;
+    margin:  0 10px;
+    border:none;
+    list-style: none;
+    
+  }
+  
+  nav {
+    
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    text-decoration-line: none;
+    color: #B4D9D1;
+  }
+    
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-decoration-line: none;
+
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #B4D9D1;
+  }
+  
+
+
+  nav li {
+    margin: 10px 0;
+  }
+   
+
+
+
+  .serenity {
+    padding: 50px;
+    margin-top: 30px;
+}
+
+
+.serenity-text {
+    
+        text-align: right;
+        font-size: 15px;
+        color: #B4D9D1;
+        justify-content: flex-end;
+        max-width: 1030px;
+        max-height: 511px;
+        overflow: hidden;
+        border-bottom: 3px solid silver;
+        border-top: 3px solid silver;
+      }
+      
+      .form-container {
+        text-align: center;
+      }
+      
+      .contact-form {
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px grey;
+        max-width: 500px;
+        margin: auto;
+      }
+      
+      .contact-form label {
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+      
+      .contact-form input[type="text"],
+      .contact-form input[type="email"],
+      .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      .contact-form input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .contact-form input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+      
+      .serenity-title {
+        font-size: 100px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+      
+          
+  .yoga-container2{
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+      }
+
+  .quote2{
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .meditation-image2{
+    width: 30%;
+    height: 30%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    align-items:center;
+    text-align: center;
+    justify-content:center;
+    color:#B4D9D1;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+ 
+
+  .secondquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+        
+  .quote2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  color: #B4D9D1;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  }
+
+  .welcome {
+    display: flex;
+    justify-content: flex-end;
+    align-items: left;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    line-height: 3.5;
+  }
+
+  nav ul li {
+    font-size: 40px;
+    text-decoration: none;
+    color: #B4D9D1;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     line-height: 1.5;
+  }
+
+  
+  .yoga-container3 {
+    display: flex-end;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .doctor-male img {
+    width: 300px;
+    height: auto;
+    color: #B4D9D1;
+  }
+  
+  .text1 {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #B4D9D1;
+    max-width: 50%;
+  }
+  
+  .yoga-container4 {
+    display: flex-end;
+    flex-direction: column;
+    align-items: right;
+  }
+  
+  .doctor-female img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    color: #B4D9D1;
+  }
+  
+  .text2 {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #B4D9D1;
+    max-width: 50%;
+
+  }
+
+  #welcome2 {
+    float: right;
+  }
+  
+  #welcome2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #welcome2 li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  #welcome2 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position:fixed;
+  }
+  
+  footer li {
+    margin: 50px;
+  }
+  
+  footer a {
+    font-size: 50px;
+  }
+
+  .meditation-image2 {
+     width: 30%;
+    height: 30%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
+    align-items: center;
+    align-self: center;
+  }
+      
+      
+      .form-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      .contact-form {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .contact-form label {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      
+      .contact-form input[type="text"],
+      .contact-form input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      .contact-form button[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .contact-form button[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+      
+      @media screen and (max-width: 600px) {
+        .form-container {
+          padding: 10px;
+        }
+        
+        .contact-form input[type="text"],
+        .contact-form input[type="email"] {
+          width: 100%;
+          margin-bottom: 10px;
+        }
+        
+        .contact-form button[type="submit"] {
+          padding: 8px 16px;
+        }
+      }
+
+.container-team-members{
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.team-member{
+  margin-top: 20px;
+  width:60%;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 7%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
